@@ -1,0 +1,105 @@
+@media screen and (max-width: 375px) {
+    section > .container {
+        padding:20px 30px;
+    }
+
+    #banner {
+        background-image: url("../images/banner.jpg");
+        background-size: cover;
+        height: 60vh;
+        
+        position: relative;
+        text-align: center;
+    }
+
+    .banner-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        width: 200px;
+    }   
+
+    #nav-bar .container {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    #nav-bar .container .nav {
+        padding: 10px;
+        margin: 0px;
+        justify-content: flex-start;
+        width: 250px;
+    }
+
+    #nav-bar .nav-img {
+        display: none;
+    }
+
+    #nav-bar .chungchi,
+    #nav-bar .lylich {
+        border: none;
+    }
+
+    #nav-bar i {
+        color: aqua;
+    }
+
+    #about .container-about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #certificate{
+        height: 1200px;
+    }
+
+    #certificate .section-contents {
+        display: flex;
+        height: 800px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    #certificate .content1 {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    #certificate .section-contents .cer-img img {
+        width: 300px;
+        padding-bottom: 20px;
+    }
+
+    #certificate .section-contents .content1,
+    #certificate .section-contents .content2,
+    #certificate .section-contents .content3 {
+        padding-top: 20px;
+    }
+
+    #footer .container {
+        display: flex;
+        gap: 35px;
+    }
+
+    #footer .container i {
+        transform: scale(2);
+    }
+
+    #footer .container p {
+        display: none;
+    }
+
+    #project .section-title {
+        margin: 20px 0;
+        padding: 10px 0;
+    }
+
+    .card {
+        margin-bottom: 40px;
+    }
+}
+

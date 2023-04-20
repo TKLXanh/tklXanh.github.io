@@ -1,0 +1,85 @@
+@media screen and (min-width: 376px) and (max-width: 768px) {
+    /* Tablet */
+    #nav-bar .container {
+        width: 100%;
+        padding: 0px;
+    }   
+
+    #nav-bar .container a {
+        padding: 20px 20px;
+    }   
+
+    #nav-bar .img {
+        display: none;
+    }
+
+    #nav-bar .lylich {
+        margin-right: auto;
+    }
+
+    #about #target,
+    #about #personal-info {
+        line-height: 1.6;
+        padding: 80px 50px;
+    }
+
+    #about ul {
+        padding: 0px
+    }
+
+    #certificate .section-contents {
+        width: 100%;
+        height: 600px;
+    }
+
+    #certificate .container {
+        padding: 0;
+    }
+
+    #certificate .section-contents .content {
+        padding: 0px 0px 0px 10px;
+        justify-content: center;
+        height: 260px;
+    }
+
+    #certificate .section-contents .cer-img {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    #certificate .section-contents .cont1{
+        border: none;
+        display: block;
+    }
+
+    #certificate .cont2 {
+        border-left: 1px #000 solid ;
+        padding-left: 20px;
+    }
+
+    #certificate .section-contents .content2 {
+        padding-left: 0px;
+    }
+
+    #certificate .section-title {
+        padding: 20px 0;
+
+    }
+
+    .project-grid .flex-icon {
+        display: block;
+    }
+
+    #certificate .cont1,
+    #certifivate .cont2,
+    #certifivate .cont3 {
+        height: 200px;
+    }
+
+    #certificate .section-contents .content1,
+    #certificate .section-contents .content2 {
+        border-bottom: #000 solid 1px;
+    }
+}   
+    
